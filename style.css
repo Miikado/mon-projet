@@ -79,3 +79,7 @@ li a{
     border-radius: 150px;
     margin-right: 15px;
 }
+#revision{
+    margin: 5px;
+    border : 1px solid #3484e0;
+}
