@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css"> </head>
+<header>
+    <h1>La technologie</h1>
+</header>
+
+<body>
+    <div class="container-fluid">
+        <div class="row1">
+            <div id="Le solaire et le particulier" class="col-xs-6 col-sm-8 col-lg-12">
+                <h2>Rappels sur les unités de l'électricité</h2>
+                <br/>
+                <h3>Volts (V)</h3>
+                <p><a><img id="watt" src="images/watt-heure.jpg"></a>Cette unité mesure la différence de potentiel, ou tension (notée « U »), entre deux points d'un circuit électrique. En plomberie, la tension correspondrait à la pression de l'eau.</p>
+                <h3>Ampères (A) </h3>
+                <p>Il s'agit de l'intensité (notée « I ») d'un courant électrique circulant, autrement dit la quantité d'électrons qui traverse un point du circuit en 1 seconde. En plomberie, l'intensité serait le débit d'eau dans le tuyau.</p>
+                <h3>Amperes.heure (Ah)</h3>
+                <p>Exprimé normalement en Coulomb, l'ampère. heure permet de mesurer la quantité d'électricité passant par un point d'un circuit électrique en une heure. En plomberie, on parlerait d'un volume d'eau. </p>
+                <h3>Watt crête (Wc) </h3>
+                <p> Non, cela n'est pas un coton grec ! Le Watt crête est la puissance maximale atteignable par un système électrique donné, ici un panneau ou un ensemble de panneaux photovoltaïques. Cette caractéristique est mesurée par les fabricants des cellules dans des conditions « standards » (irradiation solaire de 1000 W/m2 ; température 25°c), ce qui permet de comparer les différentes technologies et/ou modèles de panneaux entre eux. </p>
+                <a><img id="rendement" src="images/rendement.png"></a>
+                <br/>
+                <h3>Watt heure (Wh)</h3>
+                <P>Il s'agit tout simplement de la puissance fournie par les panneaux en une heure de fonctionnement effectif. Cette mesure matérialise la quantité d'énergie vendue (ou achetée). Elle est donc naturellement à la base de la facturation. Le Watt heure étant une assez petite quantité d'énergie, on utilise souvent ses multiples : le KiloWatt heure (1 KWh = 1000 Wh) et le MégaWatt heure (1 MWh = 1000 KWh = 1 000 000 Wh). </P>
+                <h3>La puissance apparente (VA) </h3>
+                <p>Exprimée en VoltsAmperes (ou KiloVolts Ampère : KVA), elle mesure la puissance réellement injectée dans le réseau par l'installation. En effet, comme tout système, une installation photovoltaïque perd une partie de sa production dans son propre fonctionnement. Les électrons émis par les cellules photovoltaïques vont notamment parcourir des fils électriques (pertes par effet joule), puis être transformés en courant alternatif (pertes dans l'onduleur). Pour le gestionnaire du réseau électrique, cela n'est donc pas la puissance de vos panneaux qui compte, mais la « puissance apparente » effective de votre installation. C'est pourquoi un certain nombre de critères administratifs sont indiqués en KVA. </p>
+                <h3>Le rendement (%) </h3>
+                <p>Pour des modules photoélectriques, le rendement correspond à la part de l'énergie solaire frappant les cellules effectivement transformée en courant continu à la sortie des panneaux. En effet, une quantité non négligeable des photons constituant la lumière du soleil est perdue (notamment par réflexion et diffusion au niveau de la vitre du module). Aujourd'hui, la majorité des cellules du marché ne dépassent pas 20%, mais les chercheurs ont déjà dépassé les 35% en laboratoire et espèrent tangenter l'actuelle limite théorique établie à 50%. Pour un onduleur, le rendement correspond à la part de courant continu effectivement transformée en courant alternatif. Le reste étant dissipé, notamment par effet joule, lors de la transformation. Pour une installation complète, le rendement correspond à la part de l'énergie solaire frappant les cellules effectivement transformée en courant alternatif utilisable. Elle est globalement égale au produit du rendement des panneaux par celui de l'onduleur (auxquels il faut ajouter les pertes dans le câblage, les compteurs, etc.).</p>
+            </div>
+            <div id="Configuration générale d'une installation" class="col-xs-6 col-sm-8 col-lg-12">
+                <h2>Configuration générale d'une installation</h2>
+                <br/>
+                <h3>Une installation photovoltaïque est composée d'une chaîne de matériels électriques et électroniques. Le dispositif contient :</h3>
+                <p>* des panneaux solaires produisant un courant continu</p>
+                <a><img id="config" src="images/configuration.jpg"></a>
+                <p>* un « contrôleur » regroupant les sorties de tous les panneaux</p>
+                <p>* un interrupteur de sécurité</p>
+                <p>* des câbles</p>
+                <p>* un onduleur transformant le courant continu en courant alternatif (le 220v-50Hz utilisé dans la maison)</p>
+                <p>* éventuellement un boitier d'information et de gestion du système.</p>
+                <h3>Les autres éléments dépendent de la configuration :</h3>
+                <p>* Pour une installation isolée : - des batteries ; - éventuellement une sortie en courant continu pour utiliser directement des appareils fonctionnant en 12V ; - une source d'électricité d'appoint (groupe électrogène)</p>
+                <p>* Pour une installation en autoconsommation : - un boîtier de délestage et de sélection de source pour s'approvisionner au réseau public si nécessaire ; - éventuellement des batteries</p>
+                <p>* Pour une installation en revente de l'excédent (ou « vente du surplus ») ; - un compteur de production mesurant l'énergie injectée sur le réseau ; - un compteur d'autoconsommation ; - un boîtier de délestage et de sélection de source</p>
+                <p>* Pour une installation en revente totale (de loin la plus fréquente) : - un compteur de production mesurant l'énergie injectée sur le réseau ; - un compteur de non consommation</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="bootstrap/js/jquery-3.2.1.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</html>
+
